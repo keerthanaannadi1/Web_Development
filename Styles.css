@@ -5,6 +5,7 @@ body {
   margin: 40px;
   color: #ffffff;
   text-align: center;
+  font-family: 'Rajdhani',sans-serif;
 }
 
 /* ===== HEADINGS ===== */
@@ -12,6 +13,7 @@ h1 {
   color: #a78bfa;
   font-size: 42px;
   text-align: center;
+  font-family: 'Orbitron',sans-serif;
 }
 
 h2 {
@@ -38,7 +40,7 @@ h2 {
   justify-content: center;
 }
 
-ul, ol {
+ul,ol {
   text-align: left;
   display: inline-block;
   padding-left: 20px;
@@ -60,4 +62,53 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+h1 {
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 2px solid #a78bfa;    /* ← fa not a7 */
+  border-radius: 12px;
+}
+h2
+{
+  padding : 10px 20px;
+  margin: 20px 0px;
+  border-left:4px solid #7dd37d;
+  display : inline-block;
+}
+p{
+  margin: 10px 0;
+  padding: 0 20px;
+}
+.skills{
+  display: flex;
+  justify-content: center;
+  gap : 25px;
+  font-weight: bold;
+
+}
+body {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:20px;
+}
+.container{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:20px;
+  max-width:600px;
+  margin:auto;
+}
+.actions{
+  display:flex;
+  gap:15px;
+  align-items:center;
+}
+.colored-text{
+  color: aqua;
+}
+.colored-heading{
+  color:blueviolot;
 }
